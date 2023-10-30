@@ -35,9 +35,13 @@ First lets take a look to the Categorical Data:
 ### Customers & Region
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_region_piechart.png" width="400" height="280">
 
+The Region did not appear to have ane value for the label, but informationally we can see that the highest percentage of the customers came from France. While the other 50% appears to be almost equally devided to both Spain and Germany .
+
 ### Customers & Gender
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_gender_piechart.png" width="400" height="280">
+
+it seems that our data is almost equally divided in terms of gender.
 
 ### Customers & AgeRange
 
@@ -51,6 +55,9 @@ First lets take a look to the Categorical Data:
 ### Exited & AgeRange based on total sum of customers
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="280">
+
+The bigest percentage of the customers dataset belongs to the Age range between 31 and 45. The smallest percentage of customers are underage while the next smallest category describes the customers in the age range of 61-100.
+
 
 ## Smote Analysis
 
