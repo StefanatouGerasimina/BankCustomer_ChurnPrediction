@@ -34,13 +34,18 @@ First lets take a look to the Categorical Data:
 
 ### Customers & Region
 
+
 ### Customers & Gender
+
 
 ### Customers & AgeRange
 
+
 ### Exited & AgeRange
 
+
 ### Exited & AgeRange based on total sum of customers
+
 
 ## Smote Analysis
 
