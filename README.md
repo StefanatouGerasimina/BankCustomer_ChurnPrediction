@@ -41,6 +41,8 @@ First lets take a look to the Categorical Data:
 
 ### Customers & AgeRange
 
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_age_piechart.png" width="400" height="300">
+
 
 ### Exited & AgeRange
 
