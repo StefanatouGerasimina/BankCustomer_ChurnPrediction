@@ -33,7 +33,7 @@ In more detail, as we can see from the matrix above, the feature that are quite 
 First lets take a look to the Categorical Data:
 
 ### Customers & Region
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_region_piechart.png" width="300" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_region_piechart.png" width="400" height="300">
 
 ### Customers & Gender
 
