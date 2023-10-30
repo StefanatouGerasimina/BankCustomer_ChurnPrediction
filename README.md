@@ -33,24 +33,24 @@ In more detail, as we can see from the matrix above, the feature that are quite 
 First lets take a look to the Categorical Data:
 
 ### Customers & Region
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_region_piechart.png" width="400" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_region_piechart.png" width="400" height="280">
 
 ### Customers & Gender
 
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_gender_piechart.png" width="400" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_gender_piechart.png" width="400" height="280">
 
 ### Customers & AgeRange
 
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_age_piechart.png" width="400" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_age_piechart.png" width="400" height="280">
 
 
 ### Exited & AgeRange
 
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/exited_age.png" width="400" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/exited_age.png" width="400" height="280">
 
 ### Exited & AgeRange based on total sum of customers
 
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="300">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="280">
 
 ## Smote Analysis
 
