@@ -17,12 +17,11 @@ It is the dataset of a U.S. bank customer for getting the information that , thi
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/features_types.png" width="200" height="180">
 
-As I can see from the array above, the continuous values are indeed of int or float type. Only the features that describe a category such as the Geography location and the gender, are of type object. Therefore, no data transformation is needed.
-
-
+As I can see from the array above, the continuous values are indeed of int or float type. Only the features that describe a category such as the Geography location and the gender, are of type object. Therefore, no data transformation is needed yet.
 
 
 ## Exploratory Data Analysis (EDA)
+
 
 
 ## Smote Analysis
