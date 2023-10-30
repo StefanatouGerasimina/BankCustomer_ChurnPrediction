@@ -24,7 +24,7 @@ As I can see from the array above, the continuous values are indeed of int or fl
 
 ### Feature Corellation Analysis
 
-<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation.png" width="200" height="200">
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation.png" width="300" height="300">
 
 Feature correlation matrix provides a comprehensive view of the relationships between variables in our dataset.  By examining the matrix, we can can find which features strongly related and gain important information about the bank's customers.
 
