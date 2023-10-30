@@ -50,6 +50,7 @@ First lets take a look to the Categorical Data:
 
 ### Exited & AgeRange based on total sum of customers
 
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="300">
 
 ## Smote Analysis
 
