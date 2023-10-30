@@ -54,6 +54,8 @@ The bigest percentage of the customers dataset belongs to the Age range between 
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/exited_age.png" width="400" height="280">
 
+The chart reveals a distinct pattern: the age category of 19-30 exhibits the lowest percentage of customers who have chosen to discontinue their relationship with the bank. Subsequently, the age groups of 0-18 and 61-100 also display relatively lower attrition rates. In contrast, the category spanning ages 46-60 ranks last in terms of customer retention. This diagram though, does not show any detail based on the total percentage of the customers. That's why we plot the diagram bellow.
+
 ### Exited & AgeRange based on total sum of customers
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="280">
