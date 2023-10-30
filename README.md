@@ -22,7 +22,25 @@ As I can see from the array above, the continuous values are indeed of int or fl
 
 ## Exploratory Data Analysis (EDA)
 
+### Feature Corellation Analysis
 
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation.png" width="200" height="200">
+
+Feature correlation matrix provides a comprehensive view of the relationships between variables in our dataset.  By examining the matrix, we can can find which features strongly related and gain important information about the bank's customers.
+
+In more detail, as we can see from the matrix above, the feature that are quite related to the label ("Exited"), are the Age, the Tenure and the IsActiveMember. While features related to each other, except from the label feature, is the Balance and the NumOfProducts.
+
+First lets take a look to the Categorical Data:
+
+### Customers & Region
+
+### Customers & Gender
+
+### Customers & AgeRange
+
+### Exited & AgeRange
+
+### Exited & AgeRange based on total sum of customers
 
 ## Smote Analysis
 
