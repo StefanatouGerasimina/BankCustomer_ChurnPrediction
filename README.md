@@ -47,6 +47,8 @@ it seems that our data is almost equally divided in terms of gender.
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/customers_age_piechart.png" width="400" height="280">
 
+The bigest percentage of the customers dataset belongs to the Age range between 31 and 45. The smallest percentage of customers are underage while the next smallest category describes the customers in the age range of 61-100.
+
 
 ### Exited & AgeRange
 
@@ -55,8 +57,6 @@ it seems that our data is almost equally divided in terms of gender.
 ### Exited & AgeRange based on total sum of customers
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="280">
-
-The bigest percentage of the customers dataset belongs to the Age range between 31 and 45. The smallest percentage of customers are underage while the next smallest category describes the customers in the age range of 61-100.
 
 
 ## Smote Analysis
