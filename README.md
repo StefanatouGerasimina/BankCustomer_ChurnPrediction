@@ -13,6 +13,8 @@ It is the dataset of a U.S. bank customer for getting the information that , thi
 - Balance: Average balance of customer.
 - NumOfProducts: Number of bank product facilities customer is using
 
+![alt text](result_images/features_types.png)
+
 As I can see from the array above, the continuous values are indeed of int or float type. Only the features that describe a category such as the Geography location and the gender, are of type object. Therefore, no data transformation is needed.
 
 
