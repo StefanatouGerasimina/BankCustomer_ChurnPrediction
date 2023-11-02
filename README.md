@@ -60,6 +60,7 @@ The chart reveals a distinct pattern: the age category of 19-30 exhibits the low
 
 <img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/fprob_exited_age.png" width="400" height="280">
 
+The figure suggests that the highest percentage of customers leaving the bank falls within the age category of 46-60, followed by the 61-100 age group, then the 31-45 age group, and finally the 0-18 and 19-30 age groups. However, when considering the overall percentage of customers leaving in our dataset, we observe a different pattern. The largest percentage of customers leaving the bank belongs to the 31-45 age group, with 9.32% of customers in this category leaving. Following closely behind is the 46-60 age group. This indicates a departure from the age distribution in the dataset.
 
 ## Smote Analysis
 
