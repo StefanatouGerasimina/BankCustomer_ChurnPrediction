@@ -67,6 +67,24 @@ The figure suggests that the highest percentage of customers leaving the bank fa
 I chose to perform Synthetic Minority Over-sampling Technique (SMOTE) analysis in my research because it is a valuable method for addressing class imbalance in datasets. SMOTE works by generating synthetic instances of the minority class to balance the dataset, thereby improving the performance of machine learning models. By creating new data points that resemble existing minority class samples, SMOTE helps prevent models from being biased toward the majority class and enhances their ability to accurately classify rare events or minority class instances.
 
 
+Before applying smote analysis, we need to standarize our data; And in order to do that, we need to split the categorical and the numerical features.
+
+Categorical Features:
+- Geography
+- Gender
+
+For these categorical features, we use LabelEncoder by sklearn preprocessing library, which is a way of converting categorical data to numerical values. For every feature and for each category within a categorical variable, you assign a unique integer label, in ascending order. For the geography variable we can have 3 possible values, while for hender only two. This means that for the Geography features the possible values will be 0,1,2 while for the gender 0 and 1.
+For the numerical data, I used standar scaler, which in general transforms feature values to have a mean of 0 and a standard deviation of 1.
+Other possible transformation whould be the one hot encoding one for the categorical data with the standar scaler for the numerical data.
+
+As soon as the transforming and their combination is done, we move on to the smote analysis, to minimize the problem of the high difference between classes of the output label.
+
+Before the smote analysis, the sum of values for each label where: 
+{1: 2037, 0: 7963}
+While after the smote analysis, we have a more balanced dataset:
+{0: 6356, 1: 6356}
+
+
 ## Model Training & Evaluation
 
 ### Logistic Regression
