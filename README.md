@@ -64,6 +64,8 @@ The figure suggests that the highest percentage of customers leaving the bank fa
 
 ## Smote Analysis
 
+I chose to perform Synthetic Minority Over-sampling Technique (SMOTE) analysis in my research because it is a valuable method for addressing class imbalance in datasets. SMOTE works by generating synthetic instances of the minority class to balance the dataset, thereby improving the performance of machine learning models. By creating new data points that resemble existing minority class samples, SMOTE helps prevent models from being biased toward the majority class and enhances their ability to accurately classify rare events or minority class instances.
+
 
 ## Model Training & Evaluation
 
