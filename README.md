@@ -80,8 +80,11 @@ Other possible transformation whould be the one hot encoding one for the categor
 As soon as the transforming and their combination is done, we move on to the smote analysis, to minimize the problem of the high difference between classes of the output label.
 
 Before the smote analysis, the sum of values for each label where: 
+
 {1: 2037, 0: 7963}
+
 While after the smote analysis, we have a more balanced dataset:
+
 {0: 6356, 1: 6356}
 
 
