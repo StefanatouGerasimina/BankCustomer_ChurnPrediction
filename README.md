@@ -93,8 +93,28 @@ While after the smote analysis, we have a more balanced dataset:
 
 ## Model Training & Evaluation
 
+
+First of all, before applying any of the algorithms mentioned bellow, we split the dataset into train and test randomly.
+
 ### Logistic Regression
 
+Logistic regression works by modeling the relationship between a binary dependent variable (in this case, whether a customer churns or not) and a set of independent predictor variables (such as customer demographics, transaction history, account status, etc.) using a logistic function. This function maps the input variables to the probability of the binary outcome, ensuring that the predicted probabilities are between 0 and 1. It's a good fit for customer churn prediction because it's designed for binary classification tasks and provides clear insights into the probability of a customer churning. Additionally, it handles both categorical and numerical features, making it versatile for the heterogeneous data often present in customer churn datasets. The simplicity of the model makes it interpretable, allowing banks to understand which factors influence customer churn, and it can serve as a foundation for more complex models or as a benchmark to evaluate their performance.
+
+In this specific example I used Logistic regression with 100 number of epocs. 
+The results were:
+
+- Train Acc (Logistic Regression): 0.7082
+- Test Acc (Logistic Regression): 0.7135
+- Test Acc Oversampled (Logistic Regression): 0.7135
+
+We can see a stability between train accuracy and test accuracy, which may hide a avoidance of the overfitting. Lets see ...
+
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation_matrix_lr.png" width="400" height="280">
+
+From the confusion matrix above, We can see that the percentage of the customers that stayed found to stay at a high propability rate, While the model seems to not doing good for the exited class, as there is a high percentage of variables found as 1 when they were truly 0.
+
 ### Random Forest
+
+
 
 ### XGBoost
