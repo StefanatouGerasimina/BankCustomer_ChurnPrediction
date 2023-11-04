@@ -113,8 +113,50 @@ We can see a stability between train accuracy and test accuracy, which may hide 
 
 From the confusion matrix above, We can see that the percentage of the customers that stayed found to stay at a high propability rate, While the model seems to not doing good for the exited class, as there is a high percentage of variables found as 1 when they were truly 0.
 
+- True Negatives (TN): 1158 (correctly labeled as about to leave/exit the bank)
+- False Positives (FP): 449 (falsly labeled as about to stay in the bank)
+- False Negatives (FN): 124 (falsy labeled as about to leave/exit the bank)
+- True Positives (TP): 269 (corectly labeled as about to stay in the bank)
+
+As we can see from the above mention bullet points, we have a rate of 449 false positives, which means that the model did found 449 people as "about to stay" where they ere actually belloging to the class of 0 ("about to exit the bank/ exited").
+
 ### Random Forest
 
+Random Forest combines the strength of multiple decision trees to make accurate and robust predictions. Each tree in the forest is constructed using a random subset of the data and features, reducing the risk of overfitting and improving generalization to new data. This ensemble approach allows Random Forest to capture complex relationships and interactions between various customer attributes that might influence churn. Furthermore, it can handle both categorical and numerical features, making it suitable for customer churn prediction, which often involves diverse data types. With its inherent feature importance analysis, Random Forest can also provide insights into which factors are most influential in driving customer churn. Overall, Random Forest's ability to handle noisy and high-dimensional data while providing interpretable results makes it a well-suited choice for predicting and understanding customer churn in a business context.
+
+The results seems to be a litle better than the logistic regression, for both train and test accuracy:
+
+- Train Acc (Random Forest): 0.7629
+- Test Acc (Random Forest): 0.7620
+- Test Acc Oversampled (Random Forest): 0.7620
+
+We can see the results of the confusion matrix here:
+
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation_matrix_rf.png" width="400" height="280">
+
+- True Negatives (TN): 1246
+- False Positives (FP): 361
+- False Negatives (FN): 115
+- True Positives (TP): 278
+
+From the results mentioned above, both true negative and false positive performed much better than the logistic regression. The True Negatives are higher and the false Positives, lower.
 
 
 ### XGBoost
+
+XGBoost, or Extreme Gradient Boosting, is an exceptionally effective and popular machine learning algorithm for churn prediction tasks. Its widespread adoption is attributed to its outstanding predictive performance and robustness. XGBoost is particularly well-suited for churn prediction due to several key strengths. It excels at handling imbalanced datasets, which are common in churn analysis, by assigning higher penalties to misclassifying the minority class, making it sensitive to capturing churn cases. Additionally, XGBoost employs an ensemble of decision trees, sequentially correcting errors made by the preceding trees, which allows it to capture intricate patterns and relationships in complex customer data. Its support for handling both numerical and categorical features, its inherent feature selection capabilities, and the flexibility to fine-tune hyperparameters make it a versatile choice for optimizing churn prediction models. Furthermore, XGBoost's efficiency in training and prediction enables it to scale well to large datasets, which is essential in real-world business applications. Altogether, XGBoost's exceptional predictive power and adaptability make it a compelling choice for addressing the critical task of customer churn prediction.
+
+The results of the xgboost clasifier are:
+
+- Train Acc (Logistic Regression): 0.9607
+- Test Acc (Logistic Regression): 0.8535
+- Test Acc Oversampled (Logistic Regression): 0.8535
+
+The results seem a lot better and much higher for bith train ans test cases, than the resukts of the previous algorithms.
+
+<img src="https://github.com/StefanatouGerasimina/BankCustomer_ChurnPrediction/blob/main/result_images/feature_correlation_matrix_xgb.png" width="400" height="280">
+
+- True Negatives (TN): 1481
+- False Positives (FP): 126
+- False Negatives (FN): 167
+- True Positives (TP): 226
